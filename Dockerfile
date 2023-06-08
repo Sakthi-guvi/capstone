@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 
-#stage2
+#stage2 tessting
 FROM nginx:latest
 COPY --from=builder /usr/src/react-app/build /usr/share/nginx/html
 EXPOSE 80
