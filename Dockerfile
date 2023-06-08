@@ -1,4 +1,4 @@
-#stage1
+#stage1 from dev
 FROM node:14.0 as builder
 WORKDIR /usr/src/react-app
 COPY package*.json ./
